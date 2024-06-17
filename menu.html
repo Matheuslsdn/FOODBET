@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+  <div class="logo"><img src="css/about-fundo/logo.png" alt=""></div>
+    <header> 
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="chefs.html">CHEFS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="anuncio">
+        <div class="slide active"><img src="img/banners/banner2.jpg" alt="Slide 1"></div>
+        <div class="slide"><img src="img/banners/banner3.jpg" alt="Slide 2"></div>
+        <div class="slide"><img src="img/banners/banner4.jpg" alt="Slide 3"></div>        
+    </div>
+    <div class="main">        
+        <h2>CARDÁPIO</h2>        
+        <div id="cardapio">
+          <button class="btn active" onclick="filterSelection('all')"> MENU</button>
+          <button class="btn" onclick="filterSelection('lanche')"> LANCHE</button>
+          <button class="btn" onclick="filterSelection('combo')"> COMBO</button>
+          <button class="btn" onclick="filterSelection('bebida')"> BEBIDAS</button>
+        </div>
+        <div class="row">
+          <div class="column lanche">
+            <div class="content">
+              <img src="img/img-menu/imagem/imagem(04).jpg" alt="lanche" style="width:100%">
+              <h4>lanche</h4>
+              <h3>R$ 9,99</h3>
+              <p>Lorem ipsum dolor..</p>
+              <button>ADD</button>
+            </div>
+          </div>
+          <div class="column lanche">
+            <div class="content">
+            <img src="img/img-menu/imagem/imagem(02).jpg" alt="lanche" style="width:100%">
+              <h4>lanche</h4>
+              <h3>R$ 9,99</h3>
+              <p>Lorem ipsum dolor..</p>
+              <button>ADD</button>
+            </div>
+          </div>
+          <div class="column lanche">
+            <div class="content">
+            <img src="img/img-menu/imagem/imagem(03).jpg" alt="lanche" style="width:100%">
+              <h4>lanche</h4>
+              <h3>R$ 9,99</h3>
+              <p>Lorem ipsum dolor..</p>
+              <button>ADD</button>
+            </div>
+          </div>
+          
+          <div class="column combo">
+            <div class="content">
+              <img src="img/img-menu/combo/combo(01).jpg" alt="combo" style="width:100%">
+              <h4>combo</h4>
+              <h3>R$ 9,99</h3>
+              <p>Lorem ipsum dolor..</p>
+              <button>ADD</button>
+            </div>
+          </div>
+          <div class="column combo">
+            <div class="content">
+            <img src="img/img-menu/combo/combo(02).jpg" alt="combo" style="width:100%">
+              <h4>combo</h4>
+              <h3>R$ 9,99</h3>
+              <p>Lorem ipsum dolor..</p>
+              <button>ADD</button>
+            </div>
+          </div>
+          <div class="column combo">
+            <div class="content">
+            <img src="img/img-menu/combo/combo(03).jpg" alt="combo" style="width:100%">
+              <h4>combo</h4>
+              <h3>R$ 9,99</h3>
+              <p>Lorem ipsum dolor..</p>
+              <button>ADD</button>
+            </div>
+          </div>
+          <div class="column bebidas">
+            <div class="content">
+            <img src="img/img-menu/coca-0/coca0(01).jpg" alt="bebidas" style="width:100%">
+            <h4>bebidas</h4>
+            <h3>R$ 9,99</h3>
+            <p>Lorem ipsum dolor..</p>
+            <button>ADD</button>
+            </div>
+          </div>
+          <div class="column bebidas">
+            <div class="content">
+            <img src="img/img-menu/coca/coca(01).jpg" alt="bebidas" style="width:100%">
+              <h4>bebidas</h4>
+              <h3>R$ 9,99</h3>
+              <p>Lorem ipsum dolor..</p>
+              <button>ADD</button>
+            </div>
+          </div>
+          <div class="column bebidas">
+            <div class="content">
+            <img src="img/img-menu/fanta-l/fantalaranja(01).jpg" alt="bebidas" style="width:100%">
+            <h4>bebidas</h4>
+            <h3>R$ 9,99</h3>
+            <p>Lorem ipsum dolor..</p>
+            <button>ADD</button>
+            </div>
+          </div>
+          <div class="column bebidas">
+            <div class="content">
+            <img src="img/img-menu/fanta-u/fantauva(01).jpeg" alt="bebidas" style="width:100%">
+            <h4>bebidas</h4>
+            <h3>R$ 9,99</h3>
+            <p>Lorem ipsum dolor..</p>
+            <button>ADD</button>
+            </div>
+          </div>
+          <div class="column bebidas">
+            <div class="content">
+            <img src="img/img-menu/guarana/guarana(01).jpg" alt="bebidas" style="width:100%">
+            <h4>bebidas</h4>
+            <h3>R$ 9,99</h3>
+            <p>Lorem ipsum dolor..</p>
+            <button>ADD</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="icon">
+      <a href="https://www.facebook.com" target=”_blank”><img src="img/icones/logo-do-facebook.png" alt=""></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="img/icones/simbolo-do-instagram.png" alt=""></a>
+      <a href="https://www.twitter.com" target=”_blank”><img src="img/icones/sinal-do-twitter.png" alt=""></a>
+      <a href="https://www.youtube.com" target=”_blank”><img src="img/icones/logotipo-do-youtube.png" alt=""></a>
+    </div>
+    <footer>
+        <div class="container2">
+          <div class="footer-block">
+            <h2>Telefone</h2>
+            <p><a href="">(48)9999-9999</a><br/><a href="">(48)9999-9999</a><br/><a href="">(48)9999-9999</a><br/><a href="">(48)9999-9999</a></p>
+          </div>
+      
+          <div class="footer-block">
+            <h2>Horários</h2>
+            <p>Segunda a sexta<br/>08:00 até 12:00<br>Segunda a sexta<br/>08:00 até 12:00<br>Segunda a sexta<br/>08:00 até 12:00</p>
+          </div>
+      
+          <div class="footer-block">
+            <h2>Endereço</h2>
+            <p>Av. Trompowsky, 291. Torre 1 Sala 103<br />
+            Cep 88015300 - Florianópolis, SC. 8802001</p>
+          </div>
+          
+          <div class="footer-block">
+            <h2>Ajuda</h2>
+            <p><a href="">Fale conosco</a><br/><a href="">Fale conosco</a><br/><a href="">Fale conosco</a></p>
+          </div>
+  
+          <div class="footer-block">
+            <h2>Equipe FOODBET</h2>
+          </div>
+          <div class="clear"></div>
+        </div>
+        </footer>
+        <div class="direitos"><h3>Todos os direitos Reservados - FOODBET</h3></div>
+    <script src="js/menu.js"></script>
+</body>
+</html>
